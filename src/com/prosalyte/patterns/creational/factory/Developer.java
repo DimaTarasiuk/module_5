@@ -1,4 +1,4 @@
-package com.dtarasiuk.paterns.creational.factory;
+package com.prosalyte.patterns.creational.factory;
 
 public interface Developer {
     public void writeCode();
