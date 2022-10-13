@@ -7,7 +7,6 @@ import com.prosalyte.patterns.creational.factory.JavaDeveloper;
 public class JavaDeveloperFactory implements DeveloperFactory {
     @Override
     public Developer createDeveloper() {
-        return new JavaDeveloper() {
-        };
+        return new JavaDeveloper();
     }
 }

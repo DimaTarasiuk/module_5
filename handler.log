@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-15T06:27:46.685605500Z</date>
+  <millis>1660544866685</millis>
+  <nanos>605500</nanos>
+  <sequence>0</sequence>
+  <logger>com.logger.HandlerEX</logger>
+  <level>FINE</level>
+  <class>com.logger.HandlerEX</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Finner logged</message>
+</record>
+</log>
