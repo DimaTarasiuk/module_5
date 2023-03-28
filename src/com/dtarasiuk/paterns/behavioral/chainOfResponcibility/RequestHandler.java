@@ -1,0 +1,15 @@
+package com.dtarasiuk.paterns.behavioral.chainOfResponcibility;
+
+public class RequestHandler {
+    private RequestHandler nextHandler;
+
+    public RequestHandler (RequestHandler nextHandler){
+        this.nextHandler = nextHandler;
+    }
+
+    public void handleRequest(Request request){
+        if(nextHandler != null){
+            nextHandler.handleRequest(request);
+        }
+    }
+}

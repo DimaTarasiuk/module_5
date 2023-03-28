@@ -5,3 +5,7 @@ paterns -> decorator (RailwayStation)
     неужели вложенность new это хороший тон? если на придется создать много девелоперов то просто вложенность будет рости.
 Facade (task with techers)
 
+
+
+
+
